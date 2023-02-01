@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "container">
+            <div id="mainStuff">
+                <nav>
+                    <img src = "burger.png" class = "burger">
+                    <div class = "title">Jimmy's Diner </div>
+                    <div class = "subtitle">The best burgers and pizzas in town </div>
+                </nav>
+                
+                <div id = "foodItems"> </div>
+                <div id= "bottomMenu">
+                    <div id = "yourOrder"> </div>
+                    <div id = "orderItems"> </div>
+                    <div id = "bottomBorder"> </div>
+                    <div id = "totalPrice"> </div>
+                    <button id = "completeOrder"> Complete order </button>
+                </div>
+                <div id= "afterParty">
+                </div>
+            </div>
+            <div id = "modal">
+                <div id = "modal-container">
+                    <div id="cardDetails">Enter card details </div>
+                    <form id="paymentForm">
+                        <input type="text" id="name" placeholder="Enter your name" required name="name">
+                        <input type="text" id="cardNumber"placeholder="Enter cardnumber" required >
+                        <input type="text" id="CVV" placeholder="Enter CVV" required >
+                        <button id="secondPay" type="submit">Pay</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        
+    <script src="index.js" type="module"></script>
+    </body>
+</html>
+

@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+} 
+
+.container {
+    min-height: 1161px;
+    display: flex;
+    justify-content: center;
+}
+
+.burger {
+    max-width: 600px;
+    max-height: 167px;
+}
+
+.title {
+    color: white;
+    top: 0;
+    padding-left: 46px;
+    padding-top: 40px;
+    position: absolute;
+    font-family: Smythe;
+    font-size: 39px;
+}
+
+.subtitle {
+    color: white;
+    position: absolute;
+    top: 0;
+    padding-left: 46px;
+    padding-top: 90px;
+    font-family: Smythe;
+    font-size: 22px;
+}
+
+.emoji {
+    width: 15%;
+    font-size: 4em;
+    margin-left: 46px;
+    margin-right: 31px;
+}
+.flexContainerFood {
+    display: flex;
+    align-items: center;
+    
+}
+.foodWords {
+    display: flex;
+    flex-direction: column;
+}
+.titleFood {
+    margin: 0;
+    padding: 0;
+    font-family: Smythe;
+    font-size: 28px;
+}
+.ingredients {
+    margin: 0;
+    padding: 0;
+    font-family: Smythe;
+    color: #8B8B8B;
+    font-size: 16px;
+}
+.price {
+    margin: 0;
+    padding: 0;
+    font-family: Smythe;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.seperator {
+    border: 1px solid #D2D2D2;
+    width: 504px;
+    margin-left: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.btn {
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    outline: none;
+    margin-right: 46px;
+}
+
+.btn:hover,
+.btn:focus {
+     transform: scale(1.1);
+     cursor: pointer;
+     background: rgba(22, 219, 121, 0.2)
+}
+
+.orderTitle {
+    margin-left: 255px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    margin-top: 45px;
+    
+}
+
+.flexContainerOrder {
+    display: flex;
+    margin-left: 46px;
+    margin-top: 46px;
+}
+
+.itemName {
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+.button {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none; 
+    color: #BBBBBB;
+    margin-left: 13px;
+}
+.priceBottom {
+    margin-left: auto;
+    margin-right: 50px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#orderItems{
+    margin-top: 10px;
+}
+
+.bottomBorder {
+    width: 504px;
+    height: 0px;
+    border: 2px solid #393333;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+
+.totalPriceFlex {
+    display: flex;    
+    margin-top: 14px;
+    margin-left: 46px;
+}
+
+.totalPriceLeft {
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.totalPriceRight {
+    margin-left: auto;
+    margin-right: 50px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.disableButton {
+    pointer-events: none;
+}
+
+#completeOrder {
+    display: none;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    width: 508px;
+    height: 60px;
+    margin-left: 46px;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    width: 524px;
+    height: 542.24px;
+    top: 292px;
+    background: #FFFFFF;
+    border-radius: 3.88991px;
+}
+
+#modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    justify-self: center;
+}
+#cardDetails {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+#name {
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #757575;
+}
+#name::-webkit-input-placeholder{
+    padding-left: 26px;
+}
+#cardNumber{
+    box-sizing: border-box;
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    margin-top: 23px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #757575;  
+}
+#cardNumber::-webkit-input-placeholder{
+    padding-left: 26px;
+}
+#CVV{
+    box-sizing: border-box;
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    margin-top: 23px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #757575;
+}
+#CVV::-webkit-input-placeholder{
+    padding-left: 26px;
+}
+#secondPay {
+    width: 475.91px;
+    height: 71.3px;
+    background: #16DB99;
+    border-radius: 3.88991px;
+    margin-top: 46px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+#afterParty {
+    display: none;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 45px;
+    text-align: center;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120px;
+    color: #065F46;
+    display: none;
+}
+
+#paymentForm {
+    margin-left: 23.22px;
+}
